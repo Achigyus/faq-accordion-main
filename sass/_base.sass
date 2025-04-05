@@ -1,0 +1,31 @@
+@use 'variables' as vars
+@use 'breakpoint' as bp
+@use 'slider'
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto
+    background-color: vars.$light_pink
+    color: vars.$dark_purple
+    font-style: normal
+
+.fw400
+    font-weight: 400
+    
+.fw600
+    font-weight: 600
+
+.fw700
+    font-weight: 700
+
+.attribution_h2
+    text-align: center
+    padding: 0.5rem
+    font-size: clamp(0.875rem, 2vw, 0.94rem)
+
+.attribution a
+    color: vars.$pink
+
+@include bp.breakpoint(48rem)
+    
