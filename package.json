@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "watch": "tsc --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
   "devDependencies": {
     "gulp": "^5.0.0",
     "gulp-sass": "^6.0.1",
-    "sass": "^1.86.3"
+    "sass": "^1.86.3",
+    "typescript": "^5.8.3"
   }
 }

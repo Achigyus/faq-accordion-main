@@ -26,58 +26,59 @@
 
         <div class="faq_header">
           <div class="faq_header_img_cont">
-            <img src="#" alt="#" class="faq_header_img">
+            <img src="./assets/images/icon-star.svg" alt="#" class="faq_header_img">
           </div>
-          <h1 class="faq_header_h1">FAQs</h1>
+          <h1 class="faq_header_h1 fw700">FAQs</h1>
         </div>
 
         <div class="faq_ul">
           <li class="faq_li">
             <h2>
-              <button aria-expanded="false" aria-controls="panel1"
-              id="accordion1">What is Frontend Mentor, and how will it help me?</button>
+              <button class="accordion_btn fw600" aria-expanded="true" aria-controls="panel1"
+              id="accordion1">What is Frontend Mentor, and how will it help me? <img src="./assets/images/icon-plus.svg" alt="#" class="plus_icon faq_button_img"><img src="./assets/images/icon-minus.svg" alt="#" class="minus_icon active faq_button_img"></button>
             </h2>
           
-            <section id="panel1" aria-labelledby="accordion1" hidden>
-              <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+            <section id="panel1" aria-labelledby="accordion1" >
+              <p class="faq_answer fw400">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
             </section>
           </li>
 
           <li class="faq_li">
             <h2>
-              <button aria-expanded="false" aria-controls="panel2"
-              id="accordion2">Is Frontend Mentor free?</button>
+              <button class="accordion_btn fw600" aria-expanded="false" aria-controls="panel2"
+              id="accordion2">Is Frontend Mentor free? <img src="./assets/images/icon-plus.svg" alt="#" class="plus_icon active faq_button_img"><img src="./assets/images/icon-minus.svg" alt="#" class="minus_icon faq_button_img"></button>
             </h2>
           
             <section id="panel2" aria-labelledby="accordion2" hidden>
-              <p>Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
+              <p class="faq_answer fw400">Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
             </section>
           </li>
 
           <li class="faq_li">
             <h2>
-              <button aria-expanded="false" aria-controls="panel3"
-              id="accordion3">Can I use Frontend Mentor projects in my portfolio?</button>
+              <button class="accordion_btn fw600" aria-expanded="false" aria-controls="panel3"
+              id="accordion3">Can I use Frontend Mentor projects in my portfolio? <img src="./assets/images/icon-plus.svg" alt="#" class="plus_icon active faq_button_img"><img src="./assets/images/icon-minus.svg" alt="#" class="minus_icon faq_button_img"></button>
             </h2>
           
             <section id="panel3" aria-labelledby="accordion3" hidden>
-              <p>Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
+              <p class="faq_answer fw400">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
             </section>
           </li>
 
           <li class="faq_li">
             <h2>
-              <button aria-expanded="false" aria-controls="panel4"
-              id="accordion4">How can I get help if I'm stuck on a Frontend Mentor challenge?</button>
+              <button class="accordion_btn fw600" aria-expanded="false" aria-controls="panel4"
+              id="accordion4">How can I get help if I'm stuck on a challenge? <img src="./assets/images/icon-plus.svg" alt="#" class="plus_icon active faq_button_img"><img src="./assets/images/icon-minus.svg" alt="#" class="minus_icon faq_button_img"></button>
             </h2>
           
             <section id="panel4" aria-labelledby="accordion4" hidden>
-              <p>The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+              <p class="faq_answer fw400">The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
             </section>
           </li>
         </div>
 
       </div>
+
     </div>
 
   </main>
@@ -85,10 +86,11 @@
   <footer class="footer">
     <div class="attribution">
       <h2 class="attribution_h2">Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.</h2>
+          target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Achigyus">Achigyus</a>.</h2>
     </div>
   </footer>
+
+  <script src="./dist/index.js"></script>
 
 </body>
 
